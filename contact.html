@@ -1,19 +1,74 @@
-<div class="container">
-  <form action="action_page.php">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
 
-    <label for="email">Email Address</label>
-   <input type="text" id="email" name="email" placeholder="Your email address.." required>
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+        input[type="submit"] {
+            background-color: #d05d28;
+            color: white;
+            cursor: pointer;
+        }
 
-    <input type="submit" value="Submit">
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
 
-  </form>
-</div>
+    <h2>Contact Us</h2>
+
+    <form id="contactForm" action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        // Optional: Add JavaScript for form validation
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            if (name.trim() === "" || email.trim() === "" || message.trim() === "") {
+                alert("Please fill out all fields.");
+                event.preventDefault();
+            }
+        });
+    </script>
+
+</body>
+</html>
