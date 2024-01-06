@@ -1,0 +1,50 @@
+# northstarsignal.org 
+
+This is the website for the North Star chapter of the Signal Corps Regimental Association
+
+## Table of Contents
+
+- [About](#about)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## About
+
+Provide a more detailed overview of your project. Explain its purpose, features, and any other relevant information.
+
+## Getting Started
+
+Instructions for setting up and running your project.
+
+### Prerequisites
+
+List any software, tools, or dependencies that users need to install before using your project.
+
+### Installation
+
+Step-by-step instructions on how to install your project. Include code snippets or commands when necessary.
+
+## Usage
+
+Provide examples and guidelines on how to use your project. This section is especially important for projects with specific functionalities.
+
+## Contributing
+
+Explain how others can contribute to your project. Include guidelines for submitting issues, feature requests, or pull requests.
+
+## License
+
+State the license under which your project is released. For example, you can use [MIT](LICENSE) or any other open-source license.
+
+## Acknowledgments
+
+Give credit to any third-party libraries, resources, or inspiration that you used or referenced in your project.
+
+---
+
+**Note:** Customize this template based on your project's needs and add any additional sections that are relevant. Remember to replace placeholder content with your actual information (remind me to do this if you are reading this)
